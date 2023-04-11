@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1655642411">
+  <File Type="PA-TCL" Name="MultiCycleCPU.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="MultiCycleCPU_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="MultiCycleCPU_reports.tcl"/>
+  <File Type="RDS-RDS" Name="MultiCycleCPU.vds"/>
+  <File Type="RDS-UTIL" Name="MultiCycleCPU_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="MultiCycleCPU_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="MultiCycleCPU.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MultiCycleCPU_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="MultiCycleCPU_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/ALU.v"/>
+        <Attr Name="ImportTime" Val="1655559436"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BCD7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/Controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/Controller.v"/>
+        <Attr Name="ImportTime" Val="1655556036"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/ImmProcess.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/ImmProcess.v"/>
+        <Attr Name="ImportTime" Val="1621598921"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/InstAndDataMemory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/InstAndDataMemory.v"/>
+        <Attr Name="ImportTime" Val="1652178974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/InstReg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/InstReg.v"/>
+        <Attr Name="ImportTime" Val="1620392518"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/PC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/PC.v"/>
+        <Attr Name="ImportTime" Val="1620293090"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/RegTemp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/RegTemp.v"/>
+        <Attr Name="ImportTime" Val="1620293080"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/RegisterFile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/RegisterFile.v"/>
+        <Attr Name="ImportTime" Val="1620293155"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debounce.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multichoice.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/MultiCycleCPU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/MultiCycleCPU.v"/>
+        <Attr Name="ImportTime" Val="1655559571"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/multi-cycle/ALUControl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/multi-cycle/ALUControl.v"/>
+        <Attr Name="ImportTime" Val="1655548196"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MultiCycleCPU"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/10.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,42 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
+| Date         : Sun Jun 19 20:42:12 2022
+| Host         : LAPTOP-ADI75AMN running 64-bit major release  (build 9200)
+| Command      : report_control_sets -file MultiCycleCPU_control_sets_placed.rpt
+| Design       : MultiCycleCPU
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+
+1. Summary
+----------
+
++-------------------------------+-------+
+|             Status            | Count |
++-------------------------------+-------+
+| Number of unique control sets |   299 |
++-------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              36 |           29 |
+| No           | No                    | Yes                    |             256 |           89 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             416 |          207 |
+| Yes          | No                    | Yes                    |            8859 |         3784 |
+| Yes          | Yes                   | No                     |              24 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+

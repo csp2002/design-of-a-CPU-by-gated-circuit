@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../处理器大作业第二部分/code/multi-cycle/ALU.v" \
+"../../../../../处理器大作业第二部分/code/multi-cycle/Controller.v" \
+"../../../../../处理器大作业第二部分/code/multi-cycle/ImmProcess.v" \
+"../../../../../处理器大作业第二部分/code/multi-cycle/InstAndDataMemory.v" \
+"../../../../../处理器大作业第二部分/code/multi-cycle/InstReg.v" \
+"../../../../../处理器大作业第二部分/code/multi-cycle/PC.v" \
+"../../../../../处理器大作业第二部分/code/multi-cycle/RegTemp.v" \
+"../../../../../处理器大作业第二部分/code/multi-cycle/RegisterFile.v" \
+"../../../../../处理器大作业第二部分/code/multi-cycle/MultiCycleCPU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

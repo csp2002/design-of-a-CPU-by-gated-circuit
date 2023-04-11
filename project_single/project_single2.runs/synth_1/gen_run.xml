@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1655634995">
+  <File Type="PA-TCL" Name="CPU.tcl"/>
+  <File Type="REPORTS-TCL" Name="CPU_reports.tcl"/>
+  <File Type="RDS-RDS" Name="CPU.vds"/>
+  <File Type="RDS-UTIL" Name="CPU_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="CPU_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="CPU.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/single-cycle/ALU.v"/>
+        <Attr Name="ImportTime" Val="1654092445"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/ALUControl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/single-cycle/ALUControl.v"/>
+        <Attr Name="ImportTime" Val="1653234477"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BCD7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_single/project_single.srcs/sources_1/new/BCD7.v"/>
+        <Attr Name="ImportTime" Val="1655624962"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/Control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/single-cycle/Control.v"/>
+        <Attr Name="ImportTime" Val="1654088471"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/DataMemory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/single-cycle/DataMemory.v"/>
+        <Attr Name="ImportTime" Val="1652173620"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_single/project_single.srcs/sources_1/new/Debounce.v"/>
+        <Attr Name="ImportTime" Val="1655625079"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/InstructionMemory2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/single-cycle/InstructionMemory2.v"/>
+        <Attr Name="ImportTime" Val="1655623976"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/RegisterFile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/single-cycle/RegisterFile.v"/>
+        <Attr Name="ImportTime" Val="1652173620"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_single/project_single.srcs/sources_1/new/clk_gen.v"/>
+        <Attr Name="ImportTime" Val="1655625357"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_single/project_single.srcs/sources_1/new/count8.v"/>
+        <Attr Name="ImportTime" Val="1655625893"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multichoice.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_single/project_single.srcs/sources_1/new/multichoice.v"/>
+        <Attr Name="ImportTime" Val="1655626083"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/MipsCPU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/single-cycle/MipsCPU.v"/>
+        <Attr Name="ImportTime" Val="1654093810"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/InstructionMemory.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../处理器大作业第二部分/code/single-cycle/InstructionMemory.v"/>
+        <Attr Name="ImportTime" Val="1652178888"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CPU"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/1.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_single/project_single.srcs/constrs_1/new/1.xdc"/>
+        <Attr Name="ImportTime" Val="1655625156"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

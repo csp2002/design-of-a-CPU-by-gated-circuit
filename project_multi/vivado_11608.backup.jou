@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Jun 19 19:05:44 2022
+# Process ID: 11608
+# Current directory: C:/Users/22253/Desktop/huibian/project_multi2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14260 C:\Users\22253\Desktop\huibian\project_multi2\project_multi2.xpr
+# Log file: C:/Users/22253/Desktop/huibian/project_multi2/vivado.log
+# Journal file: C:/Users/22253/Desktop/huibian/project_multi2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/22253/Desktop/huibian/project_multi2/project_multi2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_simulation
+source test_cpu.tcl
+add_wave {{/test_cpu/MultiCycleCPU_1/reg1/RF_data[2]}} 
+add_wave {{/test_cpu/MultiCycleCPU_1/reg1/RF_data[4]}} 
+run 30 us
+save_wave_config {C:/Users/22253/Desktop/huibian/project_multi2/test_cpu_behav.wcfg}
+close_sim

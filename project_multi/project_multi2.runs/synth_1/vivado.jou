@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Jun 19 20:40:13 2022
+# Process ID: 10688
+# Current directory: E:/Desktop/project_multi2/project_multi2.runs/synth_1
+# Command line: vivado.exe -log MultiCycleCPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MultiCycleCPU.tcl
+# Log file: E:/Desktop/project_multi2/project_multi2.runs/synth_1/MultiCycleCPU.vds
+# Journal file: E:/Desktop/project_multi2/project_multi2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MultiCycleCPU.tcl -notrace

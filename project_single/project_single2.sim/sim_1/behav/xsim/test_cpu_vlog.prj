@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_single.srcs/sources_1/imports/single-cycle/ALU.v" \
+"../../../../project_single.srcs/sources_1/imports/single-cycle/ALUControl.v" \
+"../../../../project_single.srcs/sources_1/imports/single-cycle/Control.v" \
+"../../../../project_single.srcs/sources_1/imports/single-cycle/DataMemory.v" \
+"../../../../../处理器大作业第二部分/code/single-cycle/InstructionMemory2.v" \
+"../../../../project_single.srcs/sources_1/imports/single-cycle/MipsCPU.v" \
+"../../../../project_single.srcs/sources_1/imports/single-cycle/RegisterFile.v" \
+"../../../../project_single.srcs/sim_1/imports/single-cycle/test_cpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

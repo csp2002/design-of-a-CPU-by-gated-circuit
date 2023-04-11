@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../处理器大作业第二部分/code/single-cycle/ALU.v" \
+"../../../../../../处理器大作业第二部分/code/single-cycle/ALUControl.v" \
+"../../../../../../处理器大作业第二部分/code/single-cycle/Control.v" \
+"../../../../../../处理器大作业第二部分/code/single-cycle/DataMemory.v" \
+"../../../../../../处理器大作业第二部分/code/single-cycle/InstructionMemory.v" \
+"../../../../../../处理器大作业第二部分/code/single-cycle/RegisterFile.v" \
+"../../../../../../处理器大作业第二部分/code/single-cycle/MipsCPU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Jun 19 19:27:53 2022
+# Process ID: 12852
+# Current directory: C:/Users/22253/Desktop/huibian/project_multi2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6416 C:\Users\22253\Desktop\huibian\project_multi2\project_multi2.xpr
+# Log file: C:/Users/22253/Desktop/huibian/project_multi2/vivado.log
+# Journal file: C:/Users/22253/Desktop/huibian/project_multi2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/22253/Desktop/huibian/project_multi2/project_multi2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1

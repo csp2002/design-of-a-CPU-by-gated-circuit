@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_multi2.srcs/sources_1/imports/multi-cycle/ALU.v" \
+"../../../../project_multi2.srcs/sources_1/imports/multi-cycle/Controller.v" \
+"../../../../project_multi2.srcs/sources_1/imports/multi-cycle/ImmProcess.v" \
+"../../../../project_multi2.srcs/sources_1/imports/multi-cycle/InstAndDataMemory.v" \
+"../../../../project_multi2.srcs/sources_1/imports/multi-cycle/InstReg.v" \
+"../../../../project_multi2.srcs/sources_1/imports/multi-cycle/MultiCycleCPU.v" \
+"../../../../project_multi2.srcs/sources_1/imports/multi-cycle/PC.v" \
+"../../../../project_multi2.srcs/sources_1/imports/multi-cycle/RegTemp.v" \
+"../../../../project_multi2.srcs/sources_1/imports/multi-cycle/RegisterFile.v" \
+"../../../../project_multi2.srcs/sim_1/imports/multi-cycle/test_cpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
